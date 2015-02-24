@@ -81,7 +81,7 @@
                                                     <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" misplaced="YES" text="" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t8f-mA-KMU">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" misplaced="YES" text="tweet body" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t8f-mA-KMU">
                                                     <rect key="frame" x="66" y="30" width="526" height="58"/>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
                                                     <nil key="highlightedColor"/>
@@ -92,21 +92,21 @@
                                                     <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EVN-tN-IYf">
-                                                    <rect key="frame" x="8" y="99" width="60" height="30"/>
-                                                    <state key="normal" title="favorite">
-                                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                                    </state>
-                                                </button>
-                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MIr-CQ-GvC">
+                                                <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MIr-CQ-GvC">
                                                     <rect key="frame" x="223" y="99" width="53" height="30"/>
                                                     <state key="normal" title="retweet">
                                                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                     </state>
                                                 </button>
-                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KQx-vw-fsc">
-                                                    <rect key="frame" x="114" y="99" width="46" height="30"/>
+                                                <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KQx-vw-fsc">
+                                                    <rect key="frame" x="142" y="99" width="46" height="30"/>
                                                     <state key="normal" title="reply">
+                                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </state>
+                                                </button>
+                                                <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EVN-tN-IYf">
+                                                    <rect key="frame" x="53" y="99" width="60" height="30"/>
+                                                    <state key="normal" title="favorite">
                                                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                     </state>
                                                 </button>
@@ -125,8 +125,13 @@
                                                 <constraint firstItem="t8f-mA-KMU" firstAttribute="leading" secondItem="15z-dJ-z60" secondAttribute="leadingMargin" constant="58" id="OBs-Rl-I45"/>
                                                 <constraint firstItem="t8f-mA-KMU" firstAttribute="trailing" secondItem="15z-dJ-z60" secondAttribute="trailingMargin" id="TS3-JS-67P"/>
                                                 <constraint firstItem="t8f-mA-KMU" firstAttribute="top" secondItem="15z-dJ-z60" secondAttribute="topMargin" constant="22" id="WaX-1p-i3I"/>
+                                                <constraint firstItem="KQx-vw-fsc" firstAttribute="top" secondItem="t8f-mA-KMU" secondAttribute="bottom" constant="11" id="Y6M-Wi-nhV"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="EVN-tN-IYf" secondAttribute="bottom" id="d5e-ap-6Yp"/>
                                                 <constraint firstItem="HEL-de-Dp9" firstAttribute="top" secondItem="msq-jK-AV5" secondAttribute="top" id="iES-gg-AXk"/>
+                                                <constraint firstItem="MIr-CQ-GvC" firstAttribute="top" secondItem="t8f-mA-KMU" secondAttribute="bottom" constant="11" id="npQ-GT-4er"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="KQx-vw-fsc" secondAttribute="bottom" constant="0.5" id="odA-hH-0Xf"/>
                                                 <constraint firstItem="2yB-g8-66f" firstAttribute="leading" secondItem="HEL-de-Dp9" secondAttribute="trailing" constant="6" id="tMQ-Cm-wSt"/>
+                                                <constraint firstItem="EVN-tN-IYf" firstAttribute="top" secondItem="t8f-mA-KMU" secondAttribute="bottom" constant="11" id="vyW-Mf-dzM"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
