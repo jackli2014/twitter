@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		531816721A9C1207004A56F5 /* ComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531816711A9C1207004A56F5 /* ComposeViewController.swift */; };
 		53E3B3751A9B0AC200078C5C /* anyfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 53E3B3741A9B0AC200078C5C /* anyfile.m */; };
 		59BA4049B3414273B4AD2F37 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AF92C38174C0412CA3459F53 /* libPods.a */; };
 		E508FBA319D3B9C000A19386 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E508FBA219D3B9C000A19386 /* AppDelegate.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		531816711A9C1207004A56F5 /* ComposeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComposeViewController.swift; sourceTree = "<group>"; };
 		53E3B3741A9B0AC200078C5C /* anyfile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = anyfile.m; sourceTree = "<group>"; };
 		98A49C3A3B27DF15E3710D33 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		A7E958F5EAFFCAD517EBB29A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -110,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				E51134DC19D7A8C6003DFCD6 /* StatusTableViewCell.swift */,
+				531816711A9C1207004A56F5 /* ComposeViewController.swift */,
 				E51134DA19D75BF2003DFCD6 /* TimelineViewController.swift */,
 				E5104B4E19DBA89900B6FAA6 /* StatusViewController.swift */,
 				E508FBA419D3B9C000A19386 /* LoginViewController.swift */,
@@ -311,6 +314,7 @@
 				E508FBA319D3B9C000A19386 /* AppDelegate.swift in Sources */,
 				E5104B4F19DBA89900B6FAA6 /* StatusViewController.swift in Sources */,
 				E5104B4D19DBA22900B6FAA6 /* TwitterEvents.swift in Sources */,
+				531816721A9C1207004A56F5 /* ComposeViewController.swift in Sources */,
 				E51134DD19D7A8C6003DFCD6 /* StatusTableViewCell.swift in Sources */,
 				E51134D919D7383F003DFCD6 /* User.swift in Sources */,
 				E54EEAC019D45FDD00412444 /* Status.swift in Sources */,
